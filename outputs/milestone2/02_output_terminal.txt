@@ -1,0 +1,16 @@
+
+(base) gurmehersinghpuri@ub-haus-10-126-94-166 Milestones % /Users/gurmehersinghpuri/.pyenv/version
+s/3.9.13/bin/python /Users/gurmehersinghpuri/Freiburg/Spectral_Methods/Milestones/Milestone2/taylor
+_green_vortex.py
+Step 0, t = 0.010, Energy = 16383.997600
+Step 10, t = 0.110, Energy = 16383.973600
+Step 20, t = 0.210, Energy = 16383.949600
+Step 30, t = 0.310, Energy = 16383.925600
+Step 40, t = 0.410, Energy = 16383.901600
+Step 50, t = 0.510, Energy = 16383.877600
+Step 60, t = 0.610, Energy = 16383.853601
+Step 70, t = 0.710, Energy = 16383.829601
+Step 80, t = 0.810, Energy = 16383.805601
+Step 90, t = 0.910, Energy = 16383.781601
+Simulation complete
+(base) gurmehersinghpuri@ub-haus-10-126-94-166 Milestones % 

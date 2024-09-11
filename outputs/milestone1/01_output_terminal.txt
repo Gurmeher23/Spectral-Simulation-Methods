@@ -1,0 +1,155 @@
+/Users/gurmehersinghpuri/.pyenv/versions/3.9.13/bin/python /Users/gurmehersinghpuri/Freiburg/Spectral_Methods/Milestones/Milestone1/combined_script.py
+(base) gurmehersinghpuri@ub-haus-10-126-94-166 Milestones % /Users/gurmehersinghpuri/.pyenv/version
+s/3.9.13/bin/python /Users/gurmehersinghpuri/Freiburg/Spectral_Methods/Milestones/Milestone1/combin
+ed_script.py
+nb_grid_pts: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+Initial u_hat shape: (17, 32, 2, 3)
+Transforming component 0
+u_component shape: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+u_hat[..., 0] shape after forward transform: (17, 32, 2)
+Transforming component 1
+u_component shape: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+u_hat[..., 1] shape after forward transform: (17, 32, 2)
+Transforming component 2
+u_component shape: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+u_hat[..., 2] shape after forward transform: (17, 32, 2)
+Initial curl_hat shape: (17, 32, 2, 3)
+curl_hat shape after computation: (17, 32, 2, 3)
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+Initial curl_real shape: (32, 32, 2, 3)
+Inverse transforming component 0
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+curl_real[..., 0] shape after backward transform: (32, 32, 2)
+Inverse transforming component 1
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+curl_real[..., 1] shape after backward transform: (32, 32, 2)
+Inverse transforming component 2
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+curl_real[..., 2] shape after backward transform: (32, 32, 2)
+curl_real shape after backward transform: (32, 32, 2, 3)
+Test passed: Constant field has vanishing curl.
+Task 4: Test nonvanishing curl
+nb_grid_pts: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+Initial u_hat shape: (17, 32, 2, 3)
+Transforming component 0
+u_component shape: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+u_hat[..., 0] shape after forward transform: (17, 32, 2)
+Transforming component 1
+u_component shape: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+u_hat[..., 1] shape after forward transform: (17, 32, 2)
+Transforming component 2
+u_component shape: (32, 32, 2)
+Forward: input real-space field shape: (32, 32, 2)
+Forward: output Fourier-space field shape: (17, 32, 2)
+u_hat[..., 2] shape after forward transform: (17, 32, 2)
+Initial curl_hat shape: (17, 32, 2, 3)
+curl_hat shape after computation: (17, 32, 2, 3)
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+Initial curl_real shape: (32, 32, 2, 3)
+Inverse transforming component 0
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+curl_real[..., 0] shape after backward transform: (32, 32, 2)
+Inverse transforming component 1
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+curl_real[..., 1] shape after backward transform: (32, 32, 2)
+Inverse transforming component 2
+Backward: input Fourier-space field shape: (17, 32, 2)
+Backward: output real-space field shape: (32, 32, 2)
+curl_real[..., 2] shape after backward transform: (32, 32, 2)
+curl_real shape after backward transform: (32, 32, 2, 3)
+Curl values at various grid points:
+Curl at (0, 0, 0): [    0.             0.         -2767.16614951]
+Curl at (0, 0, 1): [    0.             0.         -2767.16614951]
+Curl at (0, 6, 0): [    0.             0.         -1442.50515365]
+Curl at (0, 6, 1): [    0.             0.         -1442.50515365]
+Curl at (0, 12, 0): [    0.             0.         -1340.53666037]
+Curl at (0, 12, 1): [    0.             0.         -1340.53666037]
+Curl at (0, 18, 0): [    0.             0.         -1277.57772399]
+Curl at (0, 18, 1): [    0.             0.         -1277.57772399]
+Curl at (0, 24, 0): [    0.             0.         -1189.60742941]
+Curl at (0, 24, 1): [    0.             0.         -1189.60742941]
+Curl at (0, 30, 0): [   0.            0.         -659.89798742]
+Curl at (0, 30, 1): [   0.            0.         -659.89798742]
+Curl at (6, 0, 0): [   0.            0.         -801.98149189]
+Curl at (6, 0, 1): [   0.            0.         -801.98149189]
+Curl at (6, 6, 0): [  0.           0.         522.67950397]
+Curl at (6, 6, 1): [  0.           0.         522.67950397]
+Curl at (6, 12, 0): [  0.           0.         624.64799725]
+Curl at (6, 12, 1): [  0.           0.         624.64799725]
+Curl at (6, 18, 0): [  0.           0.         687.60693363]
+Curl at (6, 18, 1): [  0.           0.         687.60693363]
+Curl at (6, 24, 0): [  0.           0.         775.57722821]
+Curl at (6, 24, 1): [  0.           0.         775.57722821]
+Curl at (6, 30, 0): [   0.           0.        1305.2866702]
+Curl at (6, 30, 1): [   0.           0.        1305.2866702]
+Curl at (12, 0, 0): [    0.             0.         -1538.74919468]
+Curl at (12, 0, 1): [    0.             0.         -1538.74919468]
+Curl at (12, 6, 0): [   0.            0.         -214.08819883]
+Curl at (12, 6, 1): [   0.            0.         -214.08819883]
+Curl at (12, 12, 0): [   0.            0.         -112.11970554]
+Curl at (12, 12, 1): [   0.            0.         -112.11970554]
+Curl at (12, 18, 0): [  0.           0.         -49.16076917]
+Curl at (12, 18, 1): [  0.           0.         -49.16076917]
+Curl at (12, 24, 0): [ 0.          0.         38.80952542]
+Curl at (12, 24, 1): [ 0.          0.         38.80952542]
+Curl at (12, 30, 0): [  0.           0.         568.51896741]
+Curl at (12, 30, 1): [  0.           0.         568.51896741]
+Curl at (18, 0, 0): [    0.             0.         -1131.06053131]
+Curl at (18, 0, 1): [    0.             0.         -1131.06053131]
+Curl at (18, 6, 0): [  0.           0.         193.60046455]
+Curl at (18, 6, 1): [  0.           0.         193.60046455]
+Curl at (18, 12, 0): [  0.           0.         295.56895784]
+Curl at (18, 12, 1): [  0.           0.         295.56895784]
+Curl at (18, 18, 0): [  0.           0.         358.52789421]
+Curl at (18, 18, 1): [  0.           0.         358.52789421]
+Curl at (18, 24, 0): [  0.           0.         446.49818879]
+Curl at (18, 24, 1): [  0.           0.         446.49818879]
+Curl at (18, 30, 0): [  0.           0.         976.20763078]
+Curl at (18, 30, 1): [  0.           0.         976.20763078]
+Curl at (24, 0, 0): [    0.            0.        -1246.8297624]
+Curl at (24, 0, 1): [    0.            0.        -1246.8297624]
+Curl at (24, 6, 0): [ 0.          0.         77.83123346]
+Curl at (24, 6, 1): [ 0.          0.         77.83123346]
+Curl at (24, 12, 0): [  0.           0.         179.79972675]
+Curl at (24, 12, 1): [  0.           0.         179.79972675]
+Curl at (24, 18, 0): [  0.           0.         242.75866312]
+Curl at (24, 18, 1): [  0.           0.         242.75866312]
+Curl at (24, 24, 0): [  0.          0.        330.7289577]
+Curl at (24, 24, 1): [  0.          0.        330.7289577]
+Curl at (24, 30, 0): [  0.           0.         860.43839969]
+Curl at (24, 30, 1): [  0.           0.         860.43839969]
+Curl at (30, 0, 0): [    0.             0.         -2599.98445386]
+Curl at (30, 0, 1): [    0.             0.         -2599.98445386]
+Curl at (30, 6, 0): [    0.           0.       -1275.323458]
+Curl at (30, 6, 1): [    0.           0.       -1275.323458]
+Curl at (30, 12, 0): [    0.             0.         -1173.35496472]
+Curl at (30, 12, 1): [    0.             0.         -1173.35496472]
+Curl at (30, 18, 0): [    0.             0.         -1110.39602834]
+Curl at (30, 18, 1): [    0.             0.         -1110.39602834]
+Curl at (30, 24, 0): [    0.             0.         -1022.42573376]
+Curl at (30, 24, 1): [    0.             0.         -1022.42573376]
+Curl at (30, 30, 0): [   0.            0.         -492.71629177]
+Curl at (30, 30, 1): [   0.            0.         -492.71629177]
+Mean curl: [ 0.00000000e+00  0.00000000e+00 -1.05693232e-13]
+(base) gurmehersinghpuri@ub-haus-10-126-94-166 Milestones % 
